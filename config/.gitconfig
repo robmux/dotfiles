@@ -1,0 +1,25 @@
+[user]
+	email = robinsonmu232@gmail.com
+	name = robmux
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	rename = branch -m
+	amend = commit --amend --no-edit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	lol = log --oneline
+	pf = push -f
+	rh = reset --hard
+	alias = config --get-regexp  ^alias\\\\.
+	pl = pull
+	plr = pull --rebase
+	a = !git add --all
+	ac = !git add --all && git commit -m
+	acn = !git add --all && git commit --amend --no-edit
