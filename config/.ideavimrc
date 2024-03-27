@@ -23,7 +23,7 @@ let mapleader=" "
 """ IdeaVim plugins
 Plug 'easymotion/vim-easymotion'
 set easymotion
-map <leader>F <Plug>(easymotion-s)
+map <leader>g <Plug>(easymotion-s)
 map <leader>f <Plug>(easymotion-f)
 " the easymotion-s command is used to search for occurrences of a word, while the easymotion-f command " is used to search for occurrences of a character or sequence of characters."
 
@@ -33,6 +33,7 @@ nnoremap <leader>tt :NERDTree<CR>
 " Remaps for JetBrains IDEs"
 nnoremap <c-z> :action ToggleDistractionFreeMode<CR>
 nnoremap <c-t> :action ActivateTerminalToolWindow<CR>
+""" In the ide, remap the Show context menu action to something like CTRL + M, CTRL + C
 nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 
 nnoremap <c-\> :action SplitVertically<CR>
